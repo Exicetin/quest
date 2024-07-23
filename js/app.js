@@ -10,7 +10,14 @@ let swiper = new Swiper(".mySwiper", {
     },
 });
 
+localStorage.setItem('login', 'lubimy')
+localStorage.setItem('password', '123456789')
+
 window.onload = function() {
+    if (localStorage.getItem('login') !== 'lybimy' && localStorage.getItem('password') !== '123456789') {
+        location.href = 'auth.html'
+    }
+
     const accordions = document.querySelectorAll(".accordion");
 
     const openAccordion = (accordion) => {
