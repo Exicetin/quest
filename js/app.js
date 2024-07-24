@@ -13,15 +13,8 @@ let swiper = new Swiper(".mySwiper", {
 localStorage.setItem('login', 'lubimy')
 localStorage.setItem('password', '123456789')
 
-// location.href = 'main.html';
 
 window.onload = function() {
-
-    //
-    //
-    // if (localStorage.getItem('login') !== 'lybimy' && localStorage.getItem('password') !== '123456789') {
-    //     location.href = 'main.html'
-    // }
 
     const accordions = document.querySelectorAll(".accordion");
 
