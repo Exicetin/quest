@@ -9,9 +9,9 @@ let swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
 });
-
-localStorage.setItem('login', 'lubimy')
-localStorage.setItem('password', '123456789')
+//
+// localStorage.setItem('login', 'lubimy')
+// localStorage.setItem('password', '123456789')
 
 
 window.onload = function() {
