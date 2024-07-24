@@ -6,7 +6,7 @@ window.onload = () => {
         let pas = localStorage.getItem('password');
 
         if (login === 'lubimy' && pas === '123456789') {
-            location.href = 'index.html'
+            location.href = 'main.html'
         }
     };
 
@@ -15,6 +15,6 @@ window.onload = () => {
     //
     //
     // if (localStorage.getItem('login') !== 'lybimy' && localStorage.getItem('password') !== '123456789') {
-    //     location.href = 'auth.html'
+    //     location.href = 'main.html'
     // }
 }
